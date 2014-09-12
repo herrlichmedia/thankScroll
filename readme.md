@@ -38,3 +38,10 @@ $(document).ready(function(){
   });
 })
 ```
+
+| Optionname              | Type          | Default | Description |
+| :-------------          |:------------- | -----:  | :---------  |
+| animate                 | boolean       | true    | Should any change be animated? |
+| firstAnimationDuration  | integer       | 1000    | Milliseconds; If animate: true, how fast should the intial upcount be animated? (only interesting if localstorage: true)
+| scrollAnimationDuration | integer       |  200    | Milliseconds; If animate: true and you scroll down, how fast should the change be animated? |
+| localStorage            | boolean       | true    | Should all the scrolled pixels get summed up and be stored for the next visit in the localstorage? |
