@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery thankScroll by herrlich media</title>
+
+  <link href="style.css" rel="stylesheet" type="text/css"> <!-- Not important for the usage, you can use your own -->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <!-- Works with every jQuery Version -->
+  <script src="jquery.thankscroll.min.js"></script> <!-- ******* Please integrate this file in your project ******* -->
+</head>
+
+<body> 
+  <a class="herrlich" href="http://herrlich.media">If you have any trouble using this, just contact us at <br><b>herrlich media &rarr;</b></a>
+  <div class="scrollcontainer">Thanks for <span id="thankScrollIndex"></span>px of your attention</div>
+</body>
+
+<script>
+  // Call the plugin on document ready (or when ever you want) so the Scrollindex is set right away.
+  $(document).ready(function(){
+    $('#thankScrollIndex').thankScroll();
+  })
+</script>
+
+</html>
