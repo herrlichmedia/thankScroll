@@ -14,7 +14,13 @@ You can decide if the upcount should be animated or not. If you decide to keep i
 
 ### Usage
 1. Integrate the plugin in your header or footer.
-2. Initialise it wherever you want. For instance on document ready.
+2. Add the container your pixelstats should appear.
+3. Initialise it wherever you want. For instance on document ready.
+
+```html
+<div>Thanks for <span id="thankScrollIndex"></span>px of your attention</div>
+```
+
 ```javascript
 $(document).ready(function(){
   $('#thankScrollIndex').thankScroll();
