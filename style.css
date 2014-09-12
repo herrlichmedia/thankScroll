@@ -1,0 +1,34 @@
+body{
+  height:5000px;
+  background: #ff5c5c; /* Old browsers */
+  background: -moz-linear-gradient(top, #ff5c5c 0%, #febbbb 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff5c5c), color-stop(100%,#febbbb)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ff5c5c 0%,#febbbb 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ff5c5c 0%,#febbbb 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ff5c5c 0%,#febbbb 100%); /* IE10+ */
+  background: linear-gradient(to bottom, #ff5c5c 0%,#febbbb 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff5c5c', endColorstr='#febbbb',GradientType=0 ); /* IE6-9 */
+  font-family: arial;
+  color:#ff5c5c;
+  font-size:16px;
+}
+
+.herrlich{
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 50%;
+  color: #febbbb;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+
+/* If you like, you can use this styles */
+.scrollcontainer{
+  padding:20px;
+  background: #FFF;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
