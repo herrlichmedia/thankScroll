@@ -5,6 +5,8 @@ Show users your love for every single pixel they´ve scrolled on your website by
 *I don´t need to tell you that this plugin is very lightweight (>1KB) and easy-to-use… 
 Upps, now I did.*
 
+### [DEMO](www.github.com)
+
 ##Info
 
 This plugin uses the localstorage to store the overall scrolled pixels for the whole domain, if you want. If you just want to get the scrolled pixels fresh for every reload, just set the localStorage option to "false".
