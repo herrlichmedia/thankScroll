@@ -2,7 +2,7 @@
 
 Show users your love for every single pixel they´ve scrolled on your website by using the thankScroll jQuery Plugin from herrlich media.
 
-*I don´t need to tell you that this plugin is very lightweight (>1KB) and easy-to-use… 
+*I don´t need to tell you that this plugin is very lightweight (<1KB) and easy-to-use… 
 Upps, now I did.*
 
 ### [DEMO](http://thankscroll.herrlich-media.de/)
